@@ -1,24 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
-<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:prism="http://prismlibrary.com"
              prism:ViewModelLocator.AutowireViewModel="True"
              x:Class="xForms.Prism.Views.Tab2ContentPage"
-             xmlns:local="clr-namespace:xForms.Prism.Views"
              Title="{Binding Title}">
-    <NavigationPage Title="Tab 1 ContentPage">
-        <x:Arguments>
-            <local:ViewA_Page />
-        </x:Arguments>
-    </NavigationPage>
-    <NavigationPage Title="Tab 2 ContentPage">
-        <x:Arguments>
-            <local:ViewB_Page />
-        </x:Arguments>
-    </NavigationPage>
- 
 
-<!--
     <ContentPage.Content>
         <StackLayout>
             <Label Text="Tab 2 ContentPage"
@@ -26,5 +13,4 @@
                 HorizontalOptions="CenterAndExpand" />
         </StackLayout>
     </ContentPage.Content>
-    -->  
-</TabbedPage>
+</ContentPage>

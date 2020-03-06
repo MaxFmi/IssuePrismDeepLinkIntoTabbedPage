@@ -2,7 +2,7 @@
 
 namespace xForms.Prism.Views
 {
-    public partial class Tab2ContentPage : TabbedPage
+    public partial class Tab2ContentPage
     {
         public Tab2ContentPage()
         {

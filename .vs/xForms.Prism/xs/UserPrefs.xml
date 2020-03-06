@@ -1,27 +1,33 @@
-﻿<Properties StartupConfiguration="{CA23C4C2-577E-407A-AB68-73BE25838F21}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="xForms.Prism/xForms.Prism/Views/Tab1ContentPage.xaml">
+﻿<Properties StartupConfiguration="{C0A1BAD2-0D4F-4345-9599-3427AF1E5694}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="xForms.Prism/xForms.Prism/Views/Tab2ContentPage.xaml">
     <Files>
-      <File FileName="xForms.Prism/xForms.Prism/Views/Tab1ContentPage.xaml" Line="16" Column="65" />
-      <File FileName="xForms.Prism/xForms.Prism/ViewModels/Tab1ContentPageViewModel.cs" Line="39" Column="52" />
+      <File FileName="xForms.Prism/xForms.Prism/Views/Tab1ContentPage.xaml" Line="1" Column="1" />
+      <File FileName="xForms.Prism/xForms.Prism/ViewModels/Tab1ContentPageViewModel.cs" Line="40" Column="10" />
+      <File FileName="xForms.Prism/xForms.Prism/Views/Tab2ContentPage.xaml" Line="8" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="xForms.Prism" expanded="True">
             <Node name="xForms.Prism" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
               <Node name="ViewModels" expanded="True" />
               <Node name="Views" expanded="True">
-                <Node name="Tab1ContentPage.xaml" selected="True" />
+                <Node name="Tab2ContentPage.xaml" expanded="True" selected="True" />
               </Node>
             </Node>
+            <Node name="xForms.Prism.iOS" expanded="True" />
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.xForms.Prism.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.262B7AEA-0DC2-4005-8AC8-7DD925B6FA5B" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.xForms.Prism.Android PreferredExecutionTarget="Android.SelectDevice" />
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

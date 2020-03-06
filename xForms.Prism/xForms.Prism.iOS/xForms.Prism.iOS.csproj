@@ -97,7 +97,6 @@
     <ITunesArtwork Include="iTunesArtwork@1x.png" />
     <ITunesArtwork Include="iTunesArtwork@2x.png" />
     <ITunesArtwork Include="iTunesArtwork@3x.png" />
-    <Compile Include="CustomRenderer\MieleTabbedPageRenderer.cs" />
   </ItemGroup>
   <ItemGroup>
     <ImageAsset Include="Assets.xcassets\Contents.json">
@@ -199,9 +198,6 @@
       <Project>{AA218FC1-CCF9-45AC-9508-4BE8C435265C}</Project>
       <Name>xForms.Prism</Name>
     </ProjectReference>
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="CustomRenderer\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>
