@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:local="clr-namespace:xForms.Prism.Views"
+            x:Class="xForms.Prism.Views.MainPage"
+            Title="{Binding Title}" >
+    <NavigationPage Title="Tab 1 ContentPage">
+        <x:Arguments>
+            <local:Tab1ContentPage />
+        </x:Arguments>
+    </NavigationPage>
+    <NavigationPage Title="Tab 2 ContentPage">
+        <x:Arguments>
+            <local:Tab2ContentPage />
+        </x:Arguments>
+    </NavigationPage>
+
+</TabbedPage>

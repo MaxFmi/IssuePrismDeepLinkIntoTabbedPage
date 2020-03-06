@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{CA23C4C2-577E-407A-AB68-73BE25838F21}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="xForms.Prism/xForms.Prism/Views/Tab1ContentPage.xaml">
+    <Files>
+      <File FileName="xForms.Prism/xForms.Prism/Views/Tab1ContentPage.xaml" Line="16" Column="65" />
+      <File FileName="xForms.Prism/xForms.Prism/ViewModels/Tab1ContentPageViewModel.cs" Line="39" Column="52" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="xForms.Prism" expanded="True">
+            <Node name="xForms.Prism" expanded="True">
+              <Node name="ViewModels" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Tab1ContentPage.xaml" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.xForms.Prism.Android PreferredExecutionTarget="Android.SelectDevice" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

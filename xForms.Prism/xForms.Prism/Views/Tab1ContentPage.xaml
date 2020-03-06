@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:prism="http://prismlibrary.com"
+             prism:ViewModelLocator.AutowireViewModel="True"
+             x:Class="xForms.Prism.Views.Tab1ContentPage"
+             Title="{Binding Title}">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Tab 1 ContentPage"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+            <Button x:Name="ViewNavigationToViewA" Text="XAML Navigation to ViewA" Command="{prism:NavigateTo 'ViewA_Page'}" />
+            <Button x:Name="RelativeNavigationToViewA" Text="Relative ViewModel Navigation to ViewA" Command="{Binding RelativeNavigationToViewACommand}" />
+            <Button Text="Absolute ViewModel Navigation to ViewA" Command="{Binding AbsoluteNavigationToViewACommand}" />
+            <Button Text="DeepLink ViewModel Navigation to ViewB" Command="{Binding DeepLinkNavigationToViewACommand}" />
+            <Button x:Name="DeepLinkCodeBehindButton" Text="DeepLink CodeBehind Navigation to ViewA" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
